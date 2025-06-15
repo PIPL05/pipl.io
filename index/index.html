@@ -1,114 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prosperitas International Pvt. Ltd.</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #000;
     }
-    .navbar-brand {
-      font-weight: bold;
-      color: #0b1c48;
-    }
-    .hero {
-      background: linear-gradient(rgba(11, 28, 72, 0.7), rgba(11, 28, 72, 0.7)), url('https://via.placeholder.com/1920x800');
-      background-size: cover;
+    header {
+      background-color: #002b5c;
       color: white;
+      padding: 20px;
       text-align: center;
-      padding: 100px 20px;
     }
-    .section {
-      padding: 60px 0;
+    header img {
+      height: 80px;
+    }
+    nav {
+      background-color: #003580;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #003580;
     }
     footer {
-      background-color: #0b1c48;
+      background-color: #002b5c;
       color: white;
-      padding: 20px 0;
       text-align: center;
+      padding: 20px;
+    }
+    .tagline {
+      font-style: italic;
+      color: gold;
+    }
+    .logo {
+      display: block;
+      margin: 10px auto;
+      height: 100px;
     }
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-    <div class="container">
-      <a class="navbar-brand" href="#">Prosperitas</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header class="hero">
-    <div class="container">
-      <h1 class="display-4">Fortuna Favet Audaci</h1>
-      <p class="lead">Welcome to Prosperitas International Private Limited</p>
-    </div>
-  </header>
-
-  <section class="section bg-light" id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>Prosperitas International Private Limited is engaged in global trading, sourcing, and supplying of high-quality industrial products. With the motto "Fortuna Favet Audaci"—Fortune Favours the Bold—we cater to international markets with reliability and integrity.</p>
-    </div>
-  </section>
-
-  <section class="section" id="products">
-    <div class="container">
-      <h2>Our Products</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Chemicals</h5>
-              <p class="card-text">Industrial solvents, Acids, Surfactants, and more.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Pharma Intermediates</h5>
-              <p class="card-text">APIs, Fine Chemicals, and related raw materials.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Agro Products</h5>
-              <p class="card-text">Herbs, Extracts, Oils, and Agri Chemicals.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section bg-light" id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:prosperitasipl@gmail.com">prosperitasipl@gmail.com</a></p>
-      <p>WhatsApp: <a href="https://wa.me/918141485837">+91 81414 85837</a></p>
-      <p>Head Office: 2062, 2nd Floor, Apple Plaza Park, Shree Rameswar Mahadev Mandir, Surat, Gujarat</p>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Prosperitas International Pvt. Ltd. | CIN: U46691GJ2025PTC157708 | GST: 24AAPCP3325D1ZM</p>
-    </div>
+  <header>
+    <img src="logo.png" alt="Prosperitas Logo" class="logo" />
+    <h1>Prosperitas International Pvt. Ltd.</h1>
+    <p class="tagline">Fortuna Favet Audaci</p>
+  </header>  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section id="home">
+    <h2>Welcome to Prosperitas</h2>
+    <p>We are committed to global excellence in import-export, trading, and international collaboration. At Prosperitas, we help you grow beyond borders.</p>
+  </section>  <section id="about">
+    <h2>About Us</h2>
+    <p>Prosperitas International Pvt. Ltd. is a dynamic trading and import-export company based in India, focusing on quality, trust, and global partnerships. Our motto "Fortuna Favet Audaci" (Fortune Favours the Bold) drives our pursuit of growth and innovation.</p>
+  </section>  <section id="products">
+    <h2>Our Products</h2>
+    <ul>
+      <li>Industrial Raw Materials</li>
+      <li>Agro Commodities</li>
+      <li>Textile & Chemicals</li>
+      <li>Engineering & Electronics</li>
+      <li>Consumer Goods</li>
+    </ul>
+  </section>  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: prosperitasipl@gmail.com</p>
+    <p>WhatsApp: +91 8141485837</p>
+    <p>Office: 2062, 2nd Floor, Apple Plaza Park, Shree Rameswar Mahadev Mandir, Surat, Gujarat</p>
+  </section>  <footer>
+    <p>&copy; 2025 Prosperitas International Pvt. Ltd. All rights reserved.</p>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
